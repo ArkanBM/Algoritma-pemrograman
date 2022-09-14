@@ -1,12 +1,12 @@
-import java.util.scanner;
-public class penjumlahan {
-    public static void main(string args[]) {
+import java.util.Scanner;
+public class Penjumlahan {
+    public static void main(String args[]) {
         int x;
         int y;
-        scanner scan = new Scanner(System.in);
-        System.out.print(s: "Masukan nilai x= ");
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Masukan nilai x= ");
         x = scan.nextInt();
-        System.out.print(s: "Masukan nilai y= ");
+        System.out.print("Masukan nilai y= ");
         y = scan.nextInt();
         int hasil = x + y;
         System.out.println("Hasil penjumlahan x + y = "+hasil);
