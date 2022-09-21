@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93ab8851-c4a2-4537-9c66-86f466639070" name="Changes" comment="" />
+    <list default="true" id="f757a710-9d38-4396-9b72-0e26e7f3075e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="2EkW9J57ZgwfE1fIThcxLSM7It8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2F3wAWQveYC1fjDxsbdhtFk0ugh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,14 +32,28 @@
     "last_opened_file_path": "D:/kuliah/smt2/Algoritma pemrograman"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="genap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="genap" />
+      <module name="Algoritma pemrograman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.genap" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="93ab8851-c4a2-4537-9c66-86f466639070" name="Changes" comment="" />
-      <created>1663139912602</created>
+      <changelist id="f757a710-9d38-4396-9b72-0e26e7f3075e" name="Changes" comment="" />
+      <created>1663733931873</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663139912602</updated>
+      <updated>1663733931873</updated>
     </task>
     <servers />
   </component>
