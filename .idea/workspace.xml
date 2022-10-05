@@ -29,19 +29,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/kuliah/smt2/Algoritma pemrograman&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/kuliah/smt3/Algoritma pemrograman&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Bintang">
+  <component name="RunManager" selected="Application.siakad">
     <configuration name="Bintang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bintang" />
-      <module name="Algoritma pemrograman" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Bntang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bntang" />
       <module name="Algoritma pemrograman" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -54,6 +47,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Siakad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Siakad" />
+      <module name="Algoritma pemrograman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="genap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="genap" />
       <module name="Algoritma pemrograman" />
@@ -61,12 +61,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="siakad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="siakad" />
+      <module name="Algoritma pemrograman" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.siakad" />
+        <item itemvalue="Application.Siakad" />
         <item itemvalue="Application.Bintang" />
         <item itemvalue="Application.genap" />
         <item itemvalue="Application.Pola1" />
-        <item itemvalue="Application.Bntang" />
       </list>
     </recent_temporary>
   </component>
