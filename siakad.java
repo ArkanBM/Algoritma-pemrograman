@@ -26,6 +26,61 @@ public class siakad {
         }
     }
 
+    public static void urutkanData() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Pilih algoritma pengurutan");
+        System.out.println("1. EXCHANGE SORT");
+        System.out.println("2. SELECTION SORT");
+        System.out.println("3. QUICK SORT");
+        System.out.print("Pilih algoritma = ");
+        int algo = scanner.nextInt();
+        switch (algo) {
+            case 1: {
+                exchangeSort();
+                break;
+            }
+            case 3: {
+                quickSort(mahasiswa, 0, jumlahData-1);
+                break;
+            }
+        }
+    }
+
+    public static void quickSort(Mahasiswa[] arr, int low, int high){
+        if(low < high){
+            int p = partition(arr, low, high);
+            quickSort(arr, low, p-1);
+            quickSort(arr, p+1, high);
+        }
+    }
+
+    static int partition(Mahasiswa[] arr, int low, int high){
+        int p = low, j;
+        for(j=low+1; j <= high; j++)
+            if(arr[j].getNim().compareTo(arr[low].getNim())<=-1)
+                swap(arr, ++p, j);
+
+        swap(arr, low, p);
+        return p;
+    }
+
+    static void swap(Mahasiswa[] arr, int low, int pivot){
+        Mahasiswa tmp = arr[low];
+        arr[low] = arr[pivot];
+        arr[pivot] = tmp;
+    }
+
+    public static void exchangeSort() {
+        for (int x = 0; x<jumlahData; x++) {
+            for (int y = x+1; y<jumlahData; y++) {
+                if (mahasiswa[x].getNim().compareTo(mahasiswa[y].getNim())>=1) {
+                    Mahasiswa temp = mahasiswa[x];
+                    mahasiswa[x] = mahasiswa[y];
+                    mahasiswa[y] = temp;
+                }
+            }
+        }
+    }
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int menu;
@@ -33,14 +88,17 @@ public class siakad {
             System.out.println("Menu Siakad");
             System.out.println("1. Tambah Data");
             System.out.println("2. Lihat Data");
-            System.out.println("3. Keluar");
+            System.out.println("3. Urutkan Data");
+            System.out.println("4. Keluar");
             System.out.print("Pilih menu = ");
             menu = scan.nextInt();
             if (menu==1) {
                 tambahData();
             } else if (menu==2) {
                 tampilData();
+            } else if (menu==3) {
+                urutkanData();
             }
-        } while (menu!=3);
+        } while (menu!=4);
     }
 }

@@ -40,15 +40,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bntang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bntang" />
+    <configuration name="Pola1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pola1" />
       <module name="Algoritma pemrograman" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pola1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pola1" />
+    <configuration name="Siakad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Siakad" />
       <module name="Algoritma pemrograman" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,10 +71,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.siakad" />
+        <item itemvalue="Application.Siakad" />
         <item itemvalue="Application.Bintang" />
         <item itemvalue="Application.genap" />
         <item itemvalue="Application.Pola1" />
-        <item itemvalue="Application.Bntang" />
       </list>
     </recent_temporary>
   </component>
