@@ -1,3 +1,5 @@
+package Uas;
+
 public class Mahasiswa {
     private String nim;
     private String nama;
