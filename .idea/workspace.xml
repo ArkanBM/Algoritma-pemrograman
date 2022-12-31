@@ -33,50 +33,50 @@
   }
 }</component>
   <component name="RunManager" selected="Application.siakad">
-    <configuration name="Bintang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Bintang" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bintang" />
       <module name="Algoritma pemrograman" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pola1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Pola1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pola1" />
       <module name="Algoritma pemrograman" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Siakad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Siakad" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Siakad" />
       <module name="Algoritma pemrograman" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="genap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="genap" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="genap" />
       <module name="Algoritma pemrograman" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="siakad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="siakad" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-16.0.2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="siakad" />
       <module name="Algoritma pemrograman" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.siakad" />
-        <item itemvalue="Application.Siakad" />
-        <item itemvalue="Application.Bintang" />
-        <item itemvalue="Application.genap" />
-        <item itemvalue="Application.Pola1" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Application.Bintang" />
+      <item itemvalue="Application.genap" />
+      <item itemvalue="Application.Pola1" />
+      <item itemvalue="Application.Siakad" />
+      <item itemvalue="Application.siakad" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,5 +88,8 @@
       <updated>1663733931873</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/siakad_java$siakad.ic" NAME="siakad Coverage Results" MODIFIED="1672465361532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
